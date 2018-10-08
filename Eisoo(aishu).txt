@@ -1,0 +1,20 @@
+1.ava关于异常处理机制的叙述哪些正确(多选)
+    A.catch部分捕捉到异常情况时，才会执行finally部分
+    B.当try区段的程序发生异常时，才会执行catch区段的程序
+    C.在try区段不论程序是否发生异常及捕获到异常，都会执行finally部分
+    D.以上都是
+    答：BC
+2.关于依赖注入，下列选项中说法错误的是（）
+    A.依赖注入能够独立开发各组件，然后根据组件间关系进行组装
+    B.依赖注入使组件之间相互依赖，相互制约
+    C.依赖注入提供使用接口编程
+    D.依赖注入指对象在使用时动态注入
+    答：B
+3.牛客网
+
+下面的类哪些可以处理Unicode字符?
+    A.InputStreamReader
+    B.BufferedReader
+    C.Writer
+    D.PipedInputStream
+    正确答案：A B C (Reader/Writer是用来处理字符流的，字节流继承于InputStream OutputStream，字符流继承于InputStreamReader OutputStreamWriter)
